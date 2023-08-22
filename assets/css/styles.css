@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    z-index: 1;
+    background: transparent;
+}
+
+.header .nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.nav a:hover {
+    border-bottom: 4px solid #fff;
+    transition: .5s;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/background/chill_background.jpg');
+    background-position: center;
+    background-size: cover;
+    filter: blur(5px);
+}
+
+.search i {
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.search i:hover {
+    cursor: pointer;
+    background-color: rgba(102, 79, 79, 0.6);
+}
+
+.home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    width: 75%;
+    transform: translate(-50%, -50%);
+    background-image: url('../img/background/chill_background.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 10px 10px 
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding: 100px 0;
+}
+
+
+.content a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 37px;
+    font-weight: 700;
+    top: -40px;
+    left: 80px;
+}
+
+.content h2 {
+    font-size: 65px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 10px;
+}
+
+.content h3 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.content pre {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+}
+
+.content .icon {
+    margin-left: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.login {
+    width: 450px;
+    position: relative;
+    padding: 100px 30px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.input {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 40px;
+}
+
+.login .input .input1 {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+::placeholder {
+    color: #fff;
+    font-size: 18px;
+}
+
+.login .input i {
+    position: relative;
+    right: -360px;
+    bottom: 23px;
+    color: #fff;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.check a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.check a:hover {
+    text-decoration: underline;
+}
+
+.login .button {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.button .btn {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(102, 79, 79, 0.6);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.button .btn:active {
+    font-size: 25px;
+}
+
+.button .btn:hover {
+    background-color: rgba(0, 213, 255, 0.6);
+    color: black;
+}
+
+.login .sign-up {
+    display: flex;
+    justify-content: center;
+}
+
+.login .sign-up a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.login .sign-up p {
+    color: #fff;
+    margin-right: 90px;
+}
+
+.login .sign-up p:hover {
+    cursor: pointer;
+}
+
+.sign-up a:hover {
+    text-decoration: underline;
+}
+
+
